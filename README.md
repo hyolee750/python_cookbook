@@ -1,9 +1,12 @@
 A Python Cookbook 3rd learning note
 
-This time I will spend 2 or 3 weeks to learn this book
+### Ubuntu 安装字体的步骤
+1. 将要安装的字体放在一个文件夹下，如```/usr/share/fonts/chinese-fonts```
+2. 执行以下命令
+   ```shell
+    sudo mkfontscale
+    sudo mkfontdir
+    sudo fc-cache -fv
+   ```
 
-Hope it can help me know python more deeply
-
-Come on 
-
-I will not give up!
+3. 安装完成，打开软件，选择新安装的字体
